@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        Parse.setApplicationId("lX0nuh9BufeD64XuDCTcIbygnTUI2NMwIFIW8m3f", clientKey: "MmaIDcKFUbxS6esn81air7TgiSysgON1G9q8942k")
+        
+        // setObject works for strings
+        // addObject works for an array
+        
+        var NSAUser = PFObject(className: "NSAUser")
+//        NSAUser.setObject("Stavros", forKey: "firstName")
+//        NSAUser.setObject("Ladeas", forKey: "lastName")
+//        NSAUser.save()
+        
         return true
     }
 
