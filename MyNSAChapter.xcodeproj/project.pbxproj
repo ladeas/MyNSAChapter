@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74A3B841AB2508A00FF3FBF /* ChaptersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A3B831AB2508A00FF3FBF /* ChaptersViewController.swift */; };
+		F74A3B861AB2891200FF3FBF /* ChapterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A3B851AB2891200FF3FBF /* ChapterDetailViewController.swift */; };
 		F763F6041AAF5DC500C9D0E4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78D78971AAF529F008B362B /* AudioToolbox.framework */; };
 		F763F6051AAF5DCE00C9D0E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78D78991AAF52A9008B362B /* CFNetwork.framework */; };
 		F763F6061AAF5DD800C9D0E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78D789B1AAF52B4008B362B /* CoreGraphics.framework */; };
@@ -24,13 +26,14 @@
 		F763F6171AAF5E5500C9D0E4 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F763F6121AAF5E5500C9D0E4 /* ParseFacebookUtils.framework */; };
 		F763F6181AAF5E5500C9D0E4 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F763F6131AAF5E5500C9D0E4 /* ParseUI.framework */; };
 		F763F61B1AAF649200C9D0E4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763F61A1AAF649200C9D0E4 /* TableViewController.swift */; };
-		F763F61D1AAF750200C9D0E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763F61C1AAF750200C9D0E4 /* DetailViewController.swift */; };
 		F78D78761AAE29C5008B362B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D78751AAE29C5008B362B /* AppDelegate.swift */; };
 		F78D78781AAE29C5008B362B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D78771AAE29C5008B362B /* ViewController.swift */; };
 		F78D787B1AAE29C5008B362B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78D78791AAE29C5008B362B /* Main.storyboard */; };
 		F78D787D1AAE29C5008B362B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78D787C1AAE29C5008B362B /* Images.xcassets */; };
 		F78D78801AAE29C5008B362B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78D787E1AAE29C5008B362B /* LaunchScreen.xib */; };
 		F78D788C1AAE29C5008B362B /* MyNSAChapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D788B1AAE29C5008B362B /* MyNSAChapterTests.swift */; };
+		F7E005FC1AB50BC9008A3445 /* centralSouth.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E005FB1AB50BC9008A3445 /* centralSouth.png */; };
+		F7EB5A291AAFBFFC003A847E /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EB5A281AAFBFFC003A847E /* StateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F74A3B831AB2508A00FF3FBF /* ChaptersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaptersViewController.swift; sourceTree = "<group>"; };
+		F74A3B851AB2891200FF3FBF /* ChapterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterDetailViewController.swift; path = ../ChapterDetailViewController.swift; sourceTree = "<group>"; };
 		F763F60F1AAF5E5500C9D0E4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		F763F6101AAF5E5500C9D0E4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		F763F6111AAF5E5500C9D0E4 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -51,7 +56,6 @@
 		F763F6131AAF5E5500C9D0E4 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		F763F6191AAF5EA300C9D0E4 /* MyNSAChapter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyNSAChapter-Bridging-Header.h"; path = "MyNSAChapter/MyNSAChapter-Bridging-Header.h"; sourceTree = "<group>"; };
 		F763F61A1AAF649200C9D0E4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		F763F61C1AAF750200C9D0E4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F78D78701AAE29C5008B362B /* MyNSAChapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNSAChapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78D78741AAE29C5008B362B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78D78751AAE29C5008B362B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 		F78D78A71AAF531B008B362B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F78D78A91AAF532A008B362B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		F78D78AB1AAF5339008B362B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F7E005FB1AB50BC9008A3445 /* centralSouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centralSouth.png; sourceTree = "<group>"; };
+		F7EB5A281AAFBFFC003A847E /* StateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +141,12 @@
 				F78D78751AAE29C5008B362B /* AppDelegate.swift */,
 				F78D78771AAE29C5008B362B /* ViewController.swift */,
 				F763F61A1AAF649200C9D0E4 /* TableViewController.swift */,
+				F7EB5A281AAFBFFC003A847E /* StateViewController.swift */,
+				F74A3B831AB2508A00FF3FBF /* ChaptersViewController.swift */,
+				F74A3B851AB2891200FF3FBF /* ChapterDetailViewController.swift */,
 				F78D78791AAE29C5008B362B /* Main.storyboard */,
-				F763F61C1AAF750200C9D0E4 /* DetailViewController.swift */,
 				F78D787C1AAE29C5008B362B /* Images.xcassets */,
+				F7E005FB1AB50BC9008A3445 /* centralSouth.png */,
 				F78D787E1AAE29C5008B362B /* LaunchScreen.xib */,
 				F78D78731AAE29C5008B362B /* Supporting Files */,
 			);
@@ -241,6 +250,7 @@
 				TargetAttributes = {
 					F78D786F1AAE29C5008B362B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2GTSUS36LT;
 					};
 					F78D78841AAE29C5008B362B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -275,6 +285,7 @@
 				F78D787B1AAE29C5008B362B /* Main.storyboard in Resources */,
 				F78D78801AAE29C5008B362B /* LaunchScreen.xib in Resources */,
 				F78D787D1AAE29C5008B362B /* Images.xcassets in Resources */,
+				F7E005FC1AB50BC9008A3445 /* centralSouth.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +305,10 @@
 			files = (
 				F78D78781AAE29C5008B362B /* ViewController.swift in Sources */,
 				F763F61B1AAF649200C9D0E4 /* TableViewController.swift in Sources */,
+				F74A3B841AB2508A00FF3FBF /* ChaptersViewController.swift in Sources */,
+				F74A3B861AB2891200FF3FBF /* ChapterDetailViewController.swift in Sources */,
 				F78D78761AAE29C5008B362B /* AppDelegate.swift in Sources */,
-				F763F61D1AAF750200C9D0E4 /* DetailViewController.swift in Sources */,
+				F7EB5A291AAFBFFC003A847E /* StateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,12 +433,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.6.4",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = MyNSAChapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,12 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.6.4",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = MyNSAChapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

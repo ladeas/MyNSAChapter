@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // setObject works for strings
         // addObject works for an array
         
-        var NSAUser = PFObject(className: "NSAUser")
+        var NSAUser = PFObject(className: "Region")
 //        NSAUser.setObject("Stavros", forKey: "firstName")
 //        NSAUser.setObject("Ladeas", forKey: "lastName")
 //        NSAUser.save()
